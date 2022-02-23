@@ -1,0 +1,6 @@
+.imagen {
+  max-width: 350px;
+  max-height: 650px;
+  margin-top: 50px;
+  display: flex;
+}
