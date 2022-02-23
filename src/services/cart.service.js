@@ -1,7 +1,7 @@
 import axios from "axios";
 export async function getUserCart() {
   const token = localStorage.getItem("token");
-  return await axios.get(process.env.REACT_APP_BASE_URL + "/api/listing/cart", {
+  return await axios.get(process.env.REACT_APP_BASE_URL + "api/listing/cart", {
     headers: {
       Authorization: token, //the token is a variable which holds the token
     },
@@ -11,7 +11,7 @@ export async function getUserCart() {
 export async function updateCart(cart) {
   const token = localStorage.getItem("token");
   return await axios.put(
-    process.env.REACT_APP_BASE_URL + "/api/listing/cart",
+    process.env.REACT_APP_BASE_URL + "api/listing/cart",
     cart,
     {
       headers: {
@@ -22,7 +22,7 @@ export async function updateCart(cart) {
 }
 export async function deleteItem(id) {
   const token = localStorage.getItem("token");
-  return axios.delete(process.env.REACT_APP_BASE_URL + "/api/listing/cart", {
+  return axios.delete(process.env.REACT_APP_BASE_URL + "api/listing/cart", {
     data: { id: id },
     headers: { Authorization: token },
   });
