@@ -9,6 +9,7 @@ import Checkout from "./pages/Checkout";
 import NotFound from "./pages/NotFound";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
+  console.log(process.env.REACT_APP_BASE_URL);
   return (
     <Router>
       <Navigation />
