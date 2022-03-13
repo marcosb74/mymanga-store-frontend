@@ -77,9 +77,7 @@ export default function Checkout() {
 
   const handleNext = async () => {
     setActiveStep(activeStep + 1);
-    console.log(activeStep);
     if (activeStep === 2) {
-      console.log("entre");
       await postOrder(buyer);
     }
   };
