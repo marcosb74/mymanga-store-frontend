@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+<p align="center">
+ <img src="https://i.imgur.com/SmVEXaD.png" alt="MyManga-Store backend doc"></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">MyManga-Store! - Backend  </h3>
 
-## Available Scripts
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<p align = "center">💡 This documentation contains all the details for the frontend of MyManga-Store! App </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Introduction](#introduction)
+- [Technologies used](#tech_used)
+- [Live version](#live)
+- [Commands](#cmds)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Introduction <a name = "introduction"></a>
 
-### `npm run build`
+This is the Front-end of a webapp called MyManga-Store! This app is a manga store, it was developed for educational purposes in the Backend Course by Coderhouse in 2021.
+The app allows users to view products, add them into the cart, register, login and has many other things!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On the admin-side, the admin gets notify via Email if a user has registered, via SMS & Whatsapp if a user has purchased an item.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+On the architectural side, the project was diveded into Services, Routes & Controllers. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies used <a name = "tech_used"></a>
 
-### `npm run eject`
+**Project Details:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- This project was developed in React + Material UI
+- axios, to do HTTP request to the backend.
+- cloudinary, to handle image uploads.
+- sweetalert2, to display some alerts.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Hosting Details:**
+- The project was deployed on Netlify
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Live version: <a name = "live"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  - [Live version!](https://mymanga-store.netlify.app/)
 
-## Learn More
+## Commands <a name = "cmds"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm install -  to install the project
+```
+```
+npm run start -  to run the project localy
+```
