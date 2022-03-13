@@ -6,7 +6,6 @@ import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
 import Snackbar from "@mui/material/Snackbar";
 import Button from "@mui/material/Button";
-import Background from "../../../assets/background-stripped.jpg";
 function ProductCTA() {
   const [open, setOpen] = React.useState(false);
 
